@@ -16,9 +16,9 @@ export class CustomerComponent implements OnInit {
 
   ngOnInit() {
     this.customerForm = this.fb.group({
-      firstName: '',
-      lastName: '',
-      email: '',
+      firstName: 'John',
+      lastName: 'Doe',
+      email: 'john@email.com',
       sendCatalog: true
     });
   }
